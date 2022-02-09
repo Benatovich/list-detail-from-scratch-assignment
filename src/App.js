@@ -13,7 +13,7 @@ export default function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Link className='home-button' to="/">Home</Link> */}
+        <Link className='home-button' to="/">Home</Link>
         <Switch>
           <Route exact path="/">
             <PokePage />
