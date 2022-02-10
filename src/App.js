@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  NavLink
 } from 'react-router-dom';
 import PokePage from './PokePage';
 import PokeDetail from './PokeDetail';
@@ -13,7 +13,7 @@ export default function App() {
   return (
     <Router>
       <div className="App">
-        <Link className='home-button' to="/">Home</Link>
+        <NavLink activeClassName='my-active-class' className='home-button' to="/">Home</NavLink>
         <Switch>
           <Route exact path="/">
             <PokePage />
