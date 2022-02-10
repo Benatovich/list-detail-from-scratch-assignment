@@ -69,14 +69,21 @@ body {
 .pokedetail .pokedata {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
 }
 
 .pokedetail .pokedata p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: pink;
+  background-color: rgb(192, 225, 255);
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
+  opacity: .9;
+}
+
+.pokedetail .pokedata .side {
+  height: 100px;
+  margin-top: 200px;
 }
