@@ -4,7 +4,7 @@ import { getSinglePokemon } from './services/fetch-utils';
 
 export default function PokeDetail() {
   const [pokemon, setPokemon] = useState({});
-  const [pokepage, setPokepage] = useState([1]);
+  // const [pokepage, setPokepage] = useState([1]);
   const params = useParams();
 
   useEffect(() => {
